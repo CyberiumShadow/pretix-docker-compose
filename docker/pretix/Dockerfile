@@ -1,4 +1,4 @@
-FROM pretix/standalone:stable
+FROM ghcr.io/cyberiumshadow/arm64v8/pretix:latest
 
 USER root
 
