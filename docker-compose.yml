@@ -2,7 +2,7 @@ version: '3'
 services:
   app:
     container_name: pretix_app
-    image: ghcr.io/CyberiumShadow/pretix
+    image: ghcr.io/cyberiumshadow/pretix
     restart: always
     depends_on:
       - database
