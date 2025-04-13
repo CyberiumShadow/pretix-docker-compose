@@ -33,7 +33,7 @@ services:
   database:
     image: postgres:16-alpine3.20
     container_name: database
-    ports:
+    #ports:
     #  - "5432:5432"
     environment:
       - POSTGRES_USER=pretix
